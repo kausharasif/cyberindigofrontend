@@ -1,0 +1,40 @@
+<p>postslist works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="spinner-border" role="status" >
+        <span class="sr-only" id="loading">Loading...</span>
+    </div>
+    <button (click)="fetchPeople()">Fetch Data</button>
+    <table class="table" id='tab'>
+        <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Title</th>
+            <th scope="col">Sub Title</th>
+            <th scope="col">Tags</th>
+            <th scope="col">Content</th>
+
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+           <!-- {{lis[0]['title']}}
+        <tr *ngFor="let e of lis;let i = index"> -->
+           
+            <!-- <td>{{ e[i]['id'] }}</td> -->
+            <!-- <td>{{ e.title }}</td>
+            <td>{{ e.sub_title}} </td>
+            <td>{{ e.tags }}</td>
+            <td>{{ e.content }}</td> -->
+        </tr>
+        </tbody>
+    </table>             
+</body>
+</html>
